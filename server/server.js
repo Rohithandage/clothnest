@@ -30,8 +30,8 @@ app.use(
     //origin: "http://localhost:5173",
     origin:[
       "http://localhost:5173",
-      "https://new-proj0-1.onrender.com",
-      "https://new-proj0.onrender.com"
+      "https://clothnest1.onrender.com",
+      "https://clothnest-5rko.onrender.com"
     ],
     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
     allowedHeaders: [
