@@ -27,7 +27,12 @@ mongoose.set('strictQuery', false);
 // Middleware setup (always available)
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    //origin: "http://localhost:5173",
+    origin:[
+      "http://localhost:5173",
+      "https://clothnest1.onrender.com",
+      "https://clothnest-5rko.onrender.com"
+    ],
     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
     allowedHeaders: [
       "Content-Type",

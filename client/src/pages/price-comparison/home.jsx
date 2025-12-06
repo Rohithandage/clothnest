@@ -29,6 +29,7 @@ const Home = () => {
     try {
       const response = await axios.get(
         `${apiConfig.PRICE_COMPARISON}/search?limit=8`
+       // `${apiConfig.PRICE_COMPARISON}/products?limit=8`
       );
       setFeaturedProducts(response.data.data || []);
     } catch (error) {
