@@ -162,11 +162,11 @@ const Footer = () => {
                 <div>
                   <span className="text-gray-400 text-xs sm:text-sm block mb-0.5">Email</span>
                   <a href="mailto:info@clothnest.com" className="hover:text-white transition-colors">
-                    info@clothnest.com
+                   clothnest99@gmail.com
                   </a>
                 </div>
               </li>
-              <li className="flex items-start gap-3 text-gray-300 text-sm sm:text-base">
+              {/* <li className="flex items-start gap-3 text-gray-300 text-sm sm:text-base">
                 <div className="mt-1 p-1.5 bg-gray-800/50 rounded-lg">
                   <Phone className="h-4 w-4 text-green-400" />
                 </div>
@@ -176,7 +176,7 @@ const Footer = () => {
                     +91 98765 43210
                   </a>
                 </div>
-              </li>
+              </li> */}
               <li className="flex items-start gap-3 text-gray-300 text-sm sm:text-base">
                 <div className="mt-1 p-1.5 bg-gray-800/50 rounded-lg">
                   <MapPin className="h-4 w-4 text-red-400" />

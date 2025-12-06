@@ -390,7 +390,7 @@ const Home = () => {
                 <Sparkles className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 lg:h-10 lg:w-10 text-white" />
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-black bg-gradient-to-r from-orange-600 via-red-600 to-pink-600 bg-clip-text text-transparent tracking-tight md:tracking-normal leading-tight md:leading-none drop-shadow-lg md:drop-shadow-xl [text-shadow:_0_2px_8px_rgba(251,146,60,0.3)] animate-fade-in">
-                Trending Products
+                Trending Clothes
               </h2>
             </div>
             <p className="text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold md:font-extrabold max-w-3xl mx-auto px-2 tracking-wide">
@@ -422,7 +422,7 @@ const Home = () => {
                     className="w-full sm:w-auto bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 hover:from-orange-600 hover:via-red-600 hover:to-pink-600 text-white font-bold text-sm sm:text-base md:text-lg px-6 sm:px-8 md:px-10 lg:px-12 py-4 sm:py-5 md:py-6 lg:py-7 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 rounded-full border-0"
                   >
                     <span className="flex items-center justify-center gap-2">
-                      View All Trending Products
+                      View All Trending Clothes
                       <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 animate-pulse" />
                     </span>
                   </Button>
@@ -473,7 +473,7 @@ const Home = () => {
               Find all brands of clothes - Men, Women & Kids Clothing. Compare prices across Amazon, Flipkart, Myntra, Ajio, Nykaa, and Meesho.
             </p>
             <p className="text-xs sm:text-sm md:text-base text-blue-100/80 max-w-2xl mx-auto mb-8 sm:mb-10 md:mb-12 leading-relaxed px-2">
-              Search for shirts, t-shirts, dresses, jeans, pants, shoes, and more from top brands. Your one-stop destination for all clothing brands and best deals.
+              Search for shirts, t-shirts, dresses, jeans,  and more from top brands. Your one-stop destination for all clothing brands and best deals.
             </p>
             
             {/* Search Bar */}
@@ -534,7 +534,7 @@ const Home = () => {
               Search and compare prices for <strong className="text-emerald-600">all brands of clothes</strong> - Men, Women & Kids Clothing
             </p>
             <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-medium px-2">
-              Find shirts, t-shirts, dresses, jeans, pants, shoes, sneakers, and more from top clothing brands. Compare prices across all platforms.
+              Find shirts, t-shirts, dresses, jeans and more from top clothing brands. Compare prices across all platforms.
             </p>
           </div>
 
@@ -551,13 +551,12 @@ const Home = () => {
                     Men's Clothing
                   </h3>
                   <p className="text-sm sm:text-base text-gray-600 mb-4 font-medium leading-relaxed">
-                    All brands of men's clothing including shirts, t-shirts, formal shirts, polo shirts, jeans, pants, cargo pants, formal pants, shoes, sneakers, and more.
+                    All brands of men's clothing including shirts, t-shirts, formal shirts, polo shirts, jeans, pants, cargo pants and more.
                   </p>
                   <div className="flex flex-wrap gap-2 justify-center">
                     <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs sm:text-sm font-semibold border border-blue-200">Shirts</span>
                     <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs sm:text-sm font-semibold border border-blue-200">T-Shirts</span>
                     <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs sm:text-sm font-semibold border border-blue-200">Jeans</span>
-                    <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs sm:text-sm font-semibold border border-blue-200">Shoes</span>
                   </div>
                 </CardContent>
               </Card>
@@ -574,13 +573,12 @@ const Home = () => {
                     Women's Clothing
                   </h3>
                   <p className="text-sm sm:text-base text-gray-600 mb-4 font-medium leading-relaxed">
-                    All brands of women's clothing including dresses, tops, t-shirts, jeans, pants, skirts, shoes, heels, sneakers, ethnic wear, and more.
+                    All brands of women's clothing including dresses, tops, t-shirts, jeans ethnic wear, and more.
                   </p>
                   <div className="flex flex-wrap gap-2 justify-center">
                     <span className="px-3 py-1 bg-pink-50 text-pink-700 rounded-full text-xs sm:text-sm font-semibold border border-pink-200">Dresses</span>
                     <span className="px-3 py-1 bg-pink-50 text-pink-700 rounded-full text-xs sm:text-sm font-semibold border border-pink-200">Tops</span>
                     <span className="px-3 py-1 bg-pink-50 text-pink-700 rounded-full text-xs sm:text-sm font-semibold border border-pink-200">Jeans</span>
-                    <span className="px-3 py-1 bg-pink-50 text-pink-700 rounded-full text-xs sm:text-sm font-semibold border border-pink-200">Shoes</span>
                   </div>
                 </CardContent>
               </Card>
@@ -597,7 +595,7 @@ const Home = () => {
                     Kids Clothing
                   </h3>
                   <p className="text-sm sm:text-base text-gray-600 mb-4 font-medium leading-relaxed">
-                    All brands of kids' clothing including boys clothing, girls clothing, baby clothing, t-shirts, dresses, jeans, pants, shoes, and more.
+                    All brands of kids' clothing including boys clothing, girls clothing, baby clothing, t-shirts, dresses and more.
                   </p>
                   <div className="flex flex-wrap gap-2 justify-center">
                     <span className="px-3 py-1 bg-yellow-50 text-yellow-700 rounded-full text-xs sm:text-sm font-semibold border border-yellow-200">Boys</span>
@@ -627,7 +625,7 @@ const Home = () => {
                 <ShoppingBag className="h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8 text-white" />
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                Featured Products
+                Featured Clothes
               </h2>
             </div>
             <p className="text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl font-semibold max-w-3xl mx-auto px-2">
@@ -659,7 +657,7 @@ const Home = () => {
                     className="w-full sm:w-auto bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:via-indigo-700 hover:to-purple-700 text-white font-bold text-sm sm:text-base md:text-lg px-6 sm:px-8 md:px-10 lg:px-12 py-4 sm:py-5 md:py-6 lg:py-7 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 rounded-full border-0"
                   >
                     <span className="flex items-center justify-center gap-2">
-                      Explore All Products
+                      Explore All Clothing Brands
                       <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 animate-pulse" />
                     </span>
                   </Button>
