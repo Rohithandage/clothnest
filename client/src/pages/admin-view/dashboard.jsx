@@ -122,6 +122,13 @@ const Dashboard = () => {
       color: "bg-orange-500 hover:bg-orange-600",
     },
     {
+      title: "Trending Products",
+      description: "Manage trending products displayed on homepage",
+      icon: <TrendingUp className="h-6 w-6" />,
+      href: "/admin/trending-products",
+      color: "bg-red-500 hover:bg-red-600",
+    },
+    {
       title: "Settings",
       description: "Configure admin settings",
       icon: <Settings className="h-6 w-6" />,

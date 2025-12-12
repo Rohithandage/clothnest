@@ -21,6 +21,7 @@ const Products = lazy(() => import("./pages/admin-view/products"));
 const Settings = lazy(() => import("./pages/admin-view/settings"));
 const ApiManagement = lazy(() => import("./pages/admin-view/api-management"));
 const WebScraping = lazy(() => import("./pages/admin-view/web-scraping"));
+const TrendingProducts = lazy(() => import("./pages/admin-view/trending-products"));
 const NotFound = lazy(() => import("./pages/not-found"));
 
 // Loading component
@@ -192,6 +193,16 @@ function App() {
             <AdminProtectedRoute>
               <Suspense fallback={<PageLoader />}>
                 <WebScraping />
+              </Suspense>
+            </AdminProtectedRoute>
+          }
+        />
+        <Route
+          path="/admin/trending-products"
+          element={
+            <AdminProtectedRoute>
+              <Suspense fallback={<PageLoader />}>
+                <TrendingProducts />
               </Suspense>
             </AdminProtectedRoute>
           }
